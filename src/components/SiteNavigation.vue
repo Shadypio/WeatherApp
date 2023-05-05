@@ -52,11 +52,13 @@
             </BaseModal>
         </nav>
     </header>
+    <HomeView></HomeView>
 </template>
 
 <script setup lang="ts">
 import {RouterLink} from 'vue-router';
 import BaseModal from './BaseModal.vue';
+import HomeView from '../views/HomeView.vue';
 import { ref } from 'vue';
 
 const modalActive = ref(false);
